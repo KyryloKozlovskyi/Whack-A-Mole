@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Whack_A_Mole.MainPage">
+
+    <VerticalStackLayout>
+
+        <Label x:Name="topscore_lbl" Text="Top Score: " HorizontalOptions="CenterAndExpand" 
+               FontSize="20" BackgroundColor="Blue"/>
+
+        <HorizontalStackLayout Margin="0, 10, 0, 0" HorizontalOptions="CenterAndExpand">
+            <Label Text="Score: "/>
+            <Label x:Name="score_lbl" Text="0"/>
+            <Label Text="Timer: " Margin="10, 0, 0, 0"/>
+            <Label x:Name="timer_lbl" Text="10"/>
+        </HorizontalStackLayout>
+        <Grid x:Name ="GridMole3" HeightRequest="300" WidthRequest="300" HorizontalOptions="CenterAndExpand" 
+              Background="Blue" RowDefinitions="*, *, *" ColumnDefinitions="*, *, *">
+            <Image x:Name="soyjack" Source="soyjackmole.png" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="false">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ImageTapped" NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+        </Grid>
+
+        <Grid x:Name="GridMole5" HeightRequest="300" WidthRequest="300" HorizontalOptions="CenterAndExpand" 
+              Background="Red" RowDefinitions="*, *, *, *, *" ColumnDefinitions="*, *, *, *, *">
+            <Image Source="soyjackmole.png" HorizontalOptions="Center" VerticalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ImageTapped" NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+
+        <Button x:Name="StartBtn" Text="Start" WidthRequest="100" Clicked="StartBtn_Clicked"/>
+
+        <Button x:Name="SwitchBtn" Text="Switch" WidthRequest="100" Clicked="SwitchBtn_Clicked"/>
+
+        <Button x:Name="LeaderBrd" Text="Leaderboard" WidthRequest="100" Clicked="ShowLeaderboard_CLicked"/>
+
+
+    </VerticalStackLayout>
+
+</ContentPage>
