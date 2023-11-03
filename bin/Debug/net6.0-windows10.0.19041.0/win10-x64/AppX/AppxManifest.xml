@@ -7,8 +7,8 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="cfc0f1e9-ff08-4130-bc4a-39ff53459008" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
-  <mp:PhoneIdentity PhoneProductId="EB345DF6-36CA-402B-BB08-AA06F0CAEE37" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="59c22d15-ba33-426d-8d18-42dd1f1431cc" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="A2A61353-98E0-4A98-AB2F-89BC3A9740AB" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Whack-A-Mole</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

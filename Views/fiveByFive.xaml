@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Whack_A_Mole.Views.fiveByFive"
+             Title="5 x 5 Board">
+    <VerticalStackLayout 
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+        <Label
+         Text="Whack A Mole"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="36"
+                HorizontalOptions="Center" />
+        <Label
+            Text="Top Score: 240"
+            SemanticProperties.HeadingLevel="Level2"
+            FontSize="28"
+            HorizontalOptions="Center" />
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <Label
+            Text="Score: 0"
+            SemanticProperties.HeadingLevel="Level2"
+            FontSize="24"
+            HorizontalOptions="StartAndExpand" />
+            <Label Margin="15,0,0,0"
+            Text="Timer: 0"
+            SemanticProperties.HeadingLevel="Level2"
+            FontSize="24"
+            HorizontalOptions="EndAndExpand" />
+        </HorizontalStackLayout>
+        <Grid x:Name="GridFiveByFive" HeightRequest="300" 
+              WidthRequest="300" 
+              HorizontalOptions="CenterAndExpand" 
+              BackgroundColor="LightGrey" 
+              RowDefinitions="*,*,*,*,*" 
+              ColumnDefinitions="*,*,*,*,*">
+            
+        </Grid>
+        <Button
+            x:Name="btnFiveByFiveStart"
+            Text="Start"
+            SemanticProperties.Hint="Starts 5x5 game"
+            Clicked="btnFiveByFiveStart_Clicked"
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

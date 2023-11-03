@@ -8,36 +8,36 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>cfc0f1e9-ff08-4130-bc4a-39ff53459008</PackageIdentityName>
+    <PackageIdentityName>59c22d15-ba33-426d-8d18-42dd1f1431cc</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\Temp\Assessment %28Whack A Mole%29\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\Temp\Assessment %28Whack A Mole%29\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Whack-A-Mole.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Whack-A-Mole.runtimeconfig.json">
       <PackagePath>Whack-A-Mole.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Whack-A-Mole.dll">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Whack-A-Mole.dll">
       <PackagePath>Whack-A-Mole.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Whack-A-Mole.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Whack-A-Mole.deps.json">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Whack-A-Mole.deps.json">
       <PackagePath>Whack-A-Mole.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.22\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
@@ -808,197 +808,227 @@
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.maui.core.ref.win\6.0.553\ref\net6.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-100.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-100.png">
       <PackagePath>mole.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-125.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-125.png">
       <PackagePath>mole.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-150.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-150.png">
       <PackagePath>mole.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-200.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-200.png">
       <PackagePath>mole.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\PC\OneDrive - Atlantic TU\Internet And Mobile Application Development\Whack-A-Mole\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-400.png">
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole.scale-400.png">
       <PackagePath>mole.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole_logo.scale-100.png">
+      <PackagePath>mole_logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole_logo.scale-125.png">
+      <PackagePath>mole_logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole_logo.scale-150.png">
+      <PackagePath>mole_logo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole_logo.scale-200.png">
+      <PackagePath>mole_logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mole_logo.scale-400.png">
+      <PackagePath>mole_logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\picsvg_download.scale-100.png">
+      <PackagePath>picsvg_download.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\picsvg_download.scale-125.png">
+      <PackagePath>picsvg_download.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\picsvg_download.scale-150.png">
+      <PackagePath>picsvg_download.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\picsvg_download.scale-200.png">
+      <PackagePath>picsvg_download.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Temp\Assessment %28Whack A Mole%29\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\picsvg_download.scale-400.png">
+      <PackagePath>picsvg_download.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

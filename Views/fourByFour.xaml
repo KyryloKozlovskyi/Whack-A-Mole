@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Whack_A_Mole.Views.fourByFour"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="4 x 4 Board">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
+        <Label
+            FontSize="30"
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level1"
+            Text="Whack A Mole" />
+        <!--  Top Score  -->
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <Label
+                FontSize="24"
+                HorizontalOptions="Center"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="Top Score: " />
+            <Label
+                x:Name="topScoreLbl"
+                FontSize="24"
+                HorizontalOptions="Center"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="0" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <!--  Current Score  -->
+            <Label
+                FontSize="20"
+                HorizontalOptions="StartAndExpand"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="Score: " />
+            <Label
+                x:Name="scoreLbl"
+                FontSize="20"
+                HorizontalOptions="StartAndExpand"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="0" />
+            <!--  Timer  -->
+            <Label
+                Margin="15,0,0,0"
+                FontSize="20"
+                HorizontalOptions="EndAndExpand"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="Timer:" />
+            <Label
+                x:Name="timerLbl"
+                Margin="5,0,0,15"
+                FontSize="20"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="10" />
+        </HorizontalStackLayout>
+        <Grid
+            x:Name="GridFourByFour"
+            BackgroundColor="LightGrey"
+            ColumnDefinitions="*,*,*,*"
+            HeightRequest="400"
+            HorizontalOptions="CenterAndExpand"
+            RowDefinitions="*,*,*,*"
+            WidthRequest="400">
+            <Image
+                x:Name="moleInGrid"
+                HeightRequest="150"
+                HorizontalOptions="Center"
+                IsVisible="false"
+                Source="mole.png"
+                VerticalOptions="Center"
+                WidthRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+        <!--  Start Button  -->
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button
+                x:Name="btnFourByFourStart"
+                Clicked="btnFourByFourStart_Clicked"
+                HorizontalOptions="Center"
+                SemanticProperties.Hint="Starts 4x4 game"
+                Text="Start" />
+            <Button
+                x:Name="btnFourByFourReset"
+                Margin="15,0,0,0"
+                Clicked="btnFourByFourReset_Clicked"
+                HorizontalOptions="Center"
+                IsEnabled="False"
+                IsVisible="false"
+                SemanticProperties.Hint="Resets 4x4 game"
+                Text="Reset" />
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
