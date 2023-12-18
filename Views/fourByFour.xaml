@@ -46,34 +46,122 @@
                 FontSize="20"
                 HorizontalOptions="EndAndExpand"
                 SemanticProperties.HeadingLevel="Level2"
-                Text="Timer:" />
+                Text="Timer (x2):" />
             <Label
                 x:Name="timerLbl"
                 Margin="5,0,0,15"
                 FontSize="20"
                 SemanticProperties.HeadingLevel="Level2"
-                Text="10" />
+                Text="15" />
         </HorizontalStackLayout>
         <Grid
             x:Name="GridFourByFour"
-            BackgroundColor="LightGrey"
+            Padding="5"
+            BackgroundColor="DarkGray"
             ColumnDefinitions="*,*,*,*"
-            HeightRequest="400"
+            ColumnSpacing="6"
+            HeightRequest="350"
             HorizontalOptions="CenterAndExpand"
             RowDefinitions="*,*,*,*"
-            WidthRequest="400">
+            RowSpacing="6"
+            WidthRequest="350">
+            <!--  Box view col 1  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <!--  Box view col 2  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <!--  Box view col 3  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <!--  Box view col 4  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
             <Image
                 x:Name="moleInGrid"
-                HeightRequest="150"
+                HeightRequest="145"
                 HorizontalOptions="Center"
                 IsVisible="false"
                 Source="mole.png"
                 VerticalOptions="Center"
-                WidthRequest="150">
+                WidthRequest="145">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
                 </Image.GestureRecognizers>
             </Image>
+
         </Grid>
         <!--  Start Button  -->
         <HorizontalStackLayout HorizontalOptions="Center">

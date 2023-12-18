@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
-  <Identity Name="59c22d15-ba33-426d-8d18-42dd1f1431cc" Publisher="CN=User Name" Version="1.0.0.1" />
-  <mp:PhoneIdentity PhoneProductId="A2A61353-98E0-4A98-AB2F-89BC3A9740AB" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="1c0b10cf-6393-4e16-b6ef-d32a7b170899" Publisher="CN=User Name" Version="1.0.0.1" />
+  <mp:PhoneIdentity PhoneProductId="997C97EE-AC70-4CA2-8C25-1BEB62F12F23" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Whack-A-Mole</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

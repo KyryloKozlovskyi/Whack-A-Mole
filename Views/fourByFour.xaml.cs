@@ -5,11 +5,16 @@ namespace Whack_A_Mole.Views;
 
 public partial class fourByFour : ContentPage
 {
-    private Random random; //random
+    //random
+    private Random random;
     private int score = 0;
-    private int countdown = 10;
+    private int countdown = 15;
+    //timer
     private System.Timers.Timer timer;
-    private int interval = 1000;
+    private int interval = 2000;
+    bool isTapEnabled = true;
+
+
     public fourByFour()
     {
         InitializeComponent();
@@ -20,6 +25,7 @@ public partial class fourByFour : ContentPage
 
     private void btnFourByFourStart_Clicked(object sender, EventArgs e) //start btn
     {
+
         MovetheMole();
         timer.Start();
         //disables start button
@@ -27,13 +33,13 @@ public partial class fourByFour : ContentPage
         //enables reset button
         btnFourByFourReset.IsVisible = true;
         btnFourByFourReset.IsEnabled = true;
-
     }
 
     public void setTopScore()
     {
-        topScoreLbl.Text = Convert.ToString(Preferences.Default.Get("top_score", 0));
+        topScoreLbl.Text = Convert.ToString(Preferences.Default.Get("top_score", 0));  //Gets the top score from Preferences and sets it
     }
+
     async private void btnFourByFourReset_Clicked(object sender, EventArgs e)
     {
         timer.Stop(); //stops the timer to ask reset q
@@ -42,8 +48,8 @@ public partial class fourByFour : ContentPage
         {
             //resets the timer, score
             //enables start button
-            countdown = 10;
-            timerLbl.Text = "10";
+            countdown = 15;
+            timerLbl.Text = "15";
             score = 0;
             scoreLbl.Text = "0";
             moleInGrid.IsVisible = false;
@@ -55,18 +61,24 @@ public partial class fourByFour : ContentPage
         {
             //continues the game
             timer.Start();
+
         }
     }
-
-    private void TapGestureRecognizer_Tapped(object sender, EventArgs e) //taps
+    async private void TapGestureRecognizer_Tapped(object sender, EventArgs e) //taps
     {
-        if (countdown > 0 && btnFourByFourStart.IsEnabled == false)
+        if (isTapEnabled)
         {
-            MovetheMole();
-            IncreaseScore();
+            if (countdown > 0 && btnFourByFourStart.IsEnabled == false)
+            {
+                isTapEnabled = false;
+                await moleInGrid.FadeTo(0, 300); //fade out on tap
+                IncreaseScore();
+                MovetheMole();
+                //IncreaseScore();
+
+            }
         }
     }
-
     private void SetUpTimers() //timer set up
     {
         timer = new System.Timers.Timer
@@ -78,31 +90,36 @@ public partial class fourByFour : ContentPage
     private void Timer_Elapsed(object sender, EventArgs e) //timer dispartcher
     {
         Dispatcher.Dispatch(
-          () => {
+          () =>
+          {
               TimerFunction();
           }
         );
     }
-    private void TimerFunction()
+    async private void TimerFunction()
     {
         if (countdown != 0)
         {
+            await moleInGrid.FadeTo(0, 750); //fade out on tick
+            MovetheMole();
             --countdown;
-            timerLbl.Text = countdown.ToString();
+            timerLbl.Text = countdown.ToString(); //updates timer string
         }
-        else
+        else if (countdown == 0)
         {
             timer.Stop();
+
             if (score > Preferences.Default.Get("top_score", 0))
             {
                 Preferences.Default.Set("top_score", score); //updates top score
-
             }
             setTopScore(); //sets top score
-
+            //popup
+            await DisplayAlert("Out Of Time!", "Your score: " + Convert.ToString(score) + "\nTop score: " + Convert.ToString(Preferences.Default.Get("top_score", 0)) + "\n\nPress the \"Reset\" button to continue", "OK");
         }
     }
-    private void MovetheMole()
+
+    async private void MovetheMole()
     {
         int r, c;
         r = random.Next(4);
@@ -110,6 +127,8 @@ public partial class fourByFour : ContentPage
         moleInGrid.SetValue(Grid.RowProperty, r);
         moleInGrid.SetValue(Grid.ColumnProperty, c);
         moleInGrid.IsVisible = true;
+        await moleInGrid.FadeTo(1, 400); // fade in on move
+        isTapEnabled = true;
     }
     private void IncreaseScore() //score increase func
     {
@@ -117,4 +136,12 @@ public partial class fourByFour : ContentPage
         scoreLbl.Text = score.ToString();
     }
 
+    //cleanup
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+        timer.Stop();
+
+        // Place your code to stop execution or perform cleanup here.
+    }
 }

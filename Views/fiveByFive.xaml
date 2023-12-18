@@ -1,48 +1,231 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Whack_A_Mole.Views.fiveByFive"
-             Title="5 x 5 Board">
-    <VerticalStackLayout 
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    x:Class="Whack_A_Mole.Views.fiveByFive"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="5 x 5 Board">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
         <Label
-         Text="Whack A Mole"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="36"
-                HorizontalOptions="Center" />
-        <Label
-            Text="Top Score: 240"
-            SemanticProperties.HeadingLevel="Level2"
-            FontSize="28"
-            HorizontalOptions="Center" />
+            FontSize="30"
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level1"
+            Text="Whack A Mole" />
+        <!--  Top Score  -->
         <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
             <Label
-            Text="Score: 0"
-            SemanticProperties.HeadingLevel="Level2"
-            FontSize="24"
-            HorizontalOptions="StartAndExpand" />
-            <Label Margin="15,0,0,0"
-            Text="Timer: 0"
-            SemanticProperties.HeadingLevel="Level2"
-            FontSize="24"
-            HorizontalOptions="EndAndExpand" />
+                FontSize="24"
+                HorizontalOptions="Center"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="Top Score: " />
+            <Label
+                x:Name="topScoreLbl"
+                FontSize="24"
+                HorizontalOptions="Center"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="0" />
         </HorizontalStackLayout>
-        <Grid x:Name="GridFiveByFive" HeightRequest="300" 
-              WidthRequest="300" 
-              HorizontalOptions="CenterAndExpand" 
-              BackgroundColor="LightGrey" 
-              RowDefinitions="*,*,*,*,*" 
-              ColumnDefinitions="*,*,*,*,*">
-            
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <!--  Current Score  -->
+            <Label
+                FontSize="20"
+                HorizontalOptions="StartAndExpand"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="Score: " />
+            <Label
+                x:Name="scoreLbl"
+                FontSize="20"
+                HorizontalOptions="StartAndExpand"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="0" />
+            <!--  Timer  -->
+            <Label
+                Margin="15,0,0,0"
+                FontSize="20"
+                HorizontalOptions="EndAndExpand"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="Timer (x2):" />
+            <Label
+                x:Name="timerLbl"
+                Margin="5,0,0,15"
+                FontSize="20"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="15" />
+        </HorizontalStackLayout>
+        <Grid
+            x:Name="GridFourByFour"
+            Padding="5"
+            BackgroundColor="DarkGray"
+            ColumnDefinitions="*,*,*,*,*"
+            ColumnSpacing="6"
+            HeightRequest="350"
+            HorizontalOptions="CenterAndExpand"
+            RowDefinitions="*,*,*,*,*"
+            RowSpacing="6"
+            WidthRequest="350">
+            <!--  Box view col 1  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="4"
+                Grid.Column="0"
+                CornerRadius="10"
+                Color="LightGray" />
+            <!--  Box view col 2  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="4"
+                Grid.Column="1"
+                CornerRadius="10"
+                Color="LightGray" />
+            <!--  Box view col 3  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="4"
+                Grid.Column="2"
+                CornerRadius="10"
+                Color="LightGray" />
+            <!--  Box view col 4  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="4"
+                Grid.Column="3"
+                CornerRadius="10"
+                Color="LightGray" />
+            <!--  Box view col 5  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="4"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="1"
+                Grid.Column="4"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="2"
+                Grid.Column="4"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="3"
+                Grid.Column="4"
+                CornerRadius="10"
+                Color="LightGray" />
+            <BoxView
+                Grid.Row="4"
+                Grid.Column="4"
+                CornerRadius="10"
+                Color="LightGray" />
+            <Image
+                x:Name="moleInGrid"
+                HeightRequest="115"
+                HorizontalOptions="Center"
+                IsVisible="false"
+                Source="mole.png"
+                VerticalOptions="Center"
+                WidthRequest="115">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
+                </Image.GestureRecognizers>
+            </Image>
+
         </Grid>
-        <Button
-            x:Name="btnFiveByFiveStart"
-            Text="Start"
-            SemanticProperties.Hint="Starts 5x5 game"
-            Clicked="btnFiveByFiveStart_Clicked"
-            HorizontalOptions="Center" />
+        <!--  Start Button  -->
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button
+                x:Name="btnFiveByFiveStart"
+                Clicked="btnFiveByFiveStart_Clicked"
+                HorizontalOptions="Center"
+                SemanticProperties.Hint="Starts 4x4 game"
+                Text="Start" />
+            <Button
+                x:Name="btnFiveByFiveReset"
+                Margin="15,0,0,0"
+                Clicked="btnFiveByFiveReset_Clicked"
+                HorizontalOptions="Center"
+                IsEnabled="False"
+                IsVisible="false"
+                SemanticProperties.Hint="Resets 5x5 game"
+                Text="Reset" />
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
